@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:unit": "vitest"
   },
   "dependencies": {
     "@gaonengwww/eslint-config": "^1.0.4",
@@ -21,6 +22,7 @@
     "typescript": "~5.8.3",
     "unocss": "^66.1.2",
     "vite": "^6.3.5",
+    "vitest": "^3.1.4",
     "vue-tsc": "^2.2.8"
   }
 }
