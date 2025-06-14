@@ -6,6 +6,21 @@ export const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('../pages/home.vue'),
   },
+  {
+    name: 'Login',
+    path: '/login',
+    component: () => import('../pages/login.vue'),
+  },
+  {
+    name: 'Callback',
+    path: '/callback',
+    component: () => import('../pages/callback.vue'),
+  },
+  {
+    name: 'Profile',
+    path: '/profile',
+    component: () => import('../pages/profile.vue'),
+  },
 ];
 
 export default createRouter({

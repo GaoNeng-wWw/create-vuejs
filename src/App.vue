@@ -1,5 +1,11 @@
+<script lang="ts" setup>
+import { useDark } from '@vueuse/core';
+
+useDark();
+</script>
+
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full bg-zinc-100 dark:bg-zinc-950">
     <router-view />
   </div>
 </template>
